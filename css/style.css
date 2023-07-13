@@ -34,8 +34,7 @@ body {
 #company,
 #company-award,
 #partner,
-#blog,
-#footer {
+#blog,footer, footer a {
   background-color: #03a4ed;
   color: #fff;
 }
@@ -55,3 +54,4 @@ body {
 .image-logo {
   padding-top: 120px;
 }
+  
