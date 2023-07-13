@@ -7,7 +7,24 @@
   <title>Handspedia testing</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <link href="css/style.css" rel="stylesheet" />
+
+  <script src="http://maps.googleapis.com/maps/api/js"></script>
+
+  <script>      
+      function initialize() {
+      var propertiPeta = {
+          center:new google.maps.LatLng(-7.9786453,112.631783),
+          zoom:9,
+          mapTypeId:google.maps.MapTypeId.ROADMAP
+      };
+      
+      var peta = new google.maps.Map(document.getElementById("googleMap"), propertiPeta);
+      }      
+      google.maps.event.addDomListener(window, 'load', initialize);
+  </script>
+  
 </head>
 
 <body>
@@ -61,23 +78,22 @@
                 <button type="button" class="btn btn-primary">Selengkapnya</button>
               </div>
               <div class="col">
-                <img src="images/image content.png" alt="" />
+                <img width="450" src="images/image content.png" alt="" />
               </div>
             </div>
           </div>
         </div>
       </div>
   </section>
-
+<!-- Section Company -->
   <section id="company">
     <div class="container p-lg-5 shadow-sm mb-4">
       <center>
-        <p class="fs-1 fw-bold">Masa Depan Inspiratif Dengan Visi & Misi Yang Kuat.
-        </p>
+        <p class="fs-1 fw-bold">Bertumbuh besar</p>
+        <p class="fs-2 fw-bold">bersama Hanspedia</p>
       </center>
       <div class="row">
         <div class="col-7">
-          <p class="fs-1 fw-bold">HANSPEDIA CORP</p>
           <p> Hanspedia merupakan Perusahaan yang bergerak dibidang teknologi Informasi, Pendidikan, dan perdagangan.
             Hanspedia berdiri pada tanggal 02 Pebruari 2017. Saat ini Hanspedia memiliki 3 anak perusahaan berstatus
             sebagai brand dari hanspedia group yaitu Information Technology Research Group (iTrg) dan Produsen Busana
@@ -91,46 +107,305 @@
 
           <p> "Media Digital dianggap sebagai solusi terbaik untuk mengaplikasikan Bisnis Kekinian untuk mendapatkan
             value
-            efektifitas dan efisiensi di era industri 4.0. dengan society 5.0,"</p>
-          <button type="button" class="btn btn-primary">Selengkapnya</button>
+            efektifitas dan efisiensi di era industri 4.0. dengan society 5.0,"</p>          
         </div>
         <div class="col-5 text-center">
-          <img width="420" src="images/image content.png" alt="" />
+          <img width="380" src="images/image content.png" alt=""/>
         </div>
       </div>
     </div>
   </section>
+  <section id="company-visi">
+    <div class="container p-lg-5 shadow-sm mb-4">
+      <center>
+        <p class="fs-1 fw-bold title">Masa Depan Inspiratif Dengan
+        </p>
+        <p class="fs-1 fw-bold title"> Visi & Misi Yang Kuat</p>        
+      </center>
+      <div class="row">
+        <div class="col-7">
+          <p class="fs-3 fw-bold">Visi</p>
+          <p> Menjadi Perusahaan terkemuka di indonesia dalam industri penyediaan barang dan jasa yang memiliki Kredibilitas dari masa ke masa dengan memberikan Nilai Terbaik kepada para Stakeholders</p>
+          <p class="fs-3 fw-bold">Misi</p>
+          <p>1. Kami menciptakan karya-karya dengan NIlai Terbaik yang kreatif, inovatif dan berkulitas agar bisa bersaing dengan industri penyediaan barang dan jasa nasional </p>
+          <p>2. Kami memberikan NIlai Terbaik untuk memuaskan para pelanggan sebagai pilihan utama mereka dengan memberikan produk dan jasa yang berkualitas, inovatif, dan handal.</p>
+          <p>3. Kami memberikan Nilai Terbaik kepada para partner dengan mengembangkan hubungan saling percaya dan partnership yang terfokus pada pertumbuhan yang berkesinambungan
+          </p>
+          <p>4. Kami memahami tanggung jawab sosial kami sebagai perusahaan dan memberikan NIlai Terbaik kepada masyarakat dengan secara ak8f berkontribusi terhadap kesejahteraan mereka</p>
+        </div>
+        <div class="col-5 text-center">
+          <img width="380" src="images/visi.png" alt="" />
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="company-award">
+    <div class="container p-lg-5 shadow-sm mb-4">
+      <center>
+        <p class="fs-1 fw-bold">Hanspedia meraih penghargaan</p>
+        <p class="fs-1 fw-bold">yang mengesankan.</p>
+      </center>
+    
+      <div class="row justify-content-center">
+        <div class="col-4">
+          <a href="https://digimind.id/award-night-ceremony/" target="_blank" class="card text-center shadow-sm">
+            <div class="card-body">
+              <div class="col-12">
+                <i class="fa-solid fa-award fa-xl" style="color: #03a4ed;"></i>
+                <p class="fs-5 fw-bold card-text">Best Islamic Product</p>
+                <p>Get to know more about the topic in details</p>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-4">
+          <a href="https://timesindonesia.co.id/indonesia-positif/346813/selamat-dosen-polisma-mendapatkan-awards-bidang-technopreneur
+          " target="_blank" class="card text-center shadow-sm">
+            <div class="card-body">
+              <div class="col-12">
+                <i class="fa-solid fa-award fa-xl" style="color: #03a4ed;"></i>
+                <p class="fs-5 fw-bold card-text">Best Islamic Product</p>
+                <p>Get to know more about the topic in details</p>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>       
+  </section>
+  <!-- section product -->
   <section id="product">
     <div class="container p-lg-5 shadow-sm mb-4">
       <center>
-        <p class="fs-1 fw-bold">Masa Depan Inspiratif Dengan Visi & Misi Yang Kuat.
-        </p>
+        <p class="fs-1 fw-bold title">Product dari Hanspedia
+        </p>        
       </center>
       <div class="row">
         <div class="col-7">
-          <p class="fs-1 fw-bold">HANSPEDIA CORP</p>
-          <p> Hanspedia merupakan Perusahaan yang bergerak dibidang teknologi Informasi, Pendidikan, dan perdagangan.
-            Hanspedia berdiri pada tanggal 02 Pebruari 2017. Saat ini Hanspedia memiliki 3 anak perusahaan berstatus
-            sebagai brand dari hanspedia group yaitu Information Technology Research Group (iTrg) dan Produsen Busana
-            Muslim dan kelengkapannya yaitu LianaHans dan DiHans.
-
-          <p> Dengan usia yang masih dini LIANAHANS salah satu brand dari HANSPEDIA Group sudah memiliki lebih dari
-            ratusan Mitra yang tersebar di seluruh provinsi indonesia dan beberapa Negera lain. LIANAHANS-HANSPEDIA
-            mengalami pertumbuhan yang sangat pesat pada 2 tahun terakhir ini, dimana LIANAHANS-HANSPEDIA dalam
-            menjalankan bisnisnya lebih fokus pada pemanfaatan Media Digital sebagai Digital Marketing dalam melakukan
-            branding, promosi, pemasaran, dll untuk menunjang jalannya bisnis tersebut.
-
-          <p> "Media Digital dianggap sebagai solusi terbaik untuk mengaplikasikan Bisnis Kekinian untuk mendapatkan
-            value
-            efektifitas dan efisiensi di era industri 4.0. dengan society 5.0,"</p>
-          <button type="button" class="btn btn-primary">Selengkapnya</button>
+          <p class="fs-3 fw-bold">Lianahans & Dihans</p>
+          <p> Lianahans merupakan salah satu Brand di bidang Fashion di bawah naungan Hanspedia Group. Brand tersebut bergerak sebagai Produsen Busana Muslim, dimana Lianahans fokus pada produksi gamis muslim Perempuan semi formal, sedangkan DiHans fokus pada gamis muslim perempuan sehari-hari (Daily), termasuk pelengkap pakaian seperti Tas, Sandal, dll.</p>
+          <p class="fs-3 fw-bold">ITRG : Information Technology Research Group</p>
+          <p>ITrg ini merupakan salah satu Brand dibawah naungan Hanspedia Group, yang bergerak dibidang layanan konsultan Teknologi Informasi & bisnis, seminar/workshop, sertifikası kompetensi, Software, Hardware, internet of things, dan hal lainnya yang terkait dengan teknologi informasi dan komunikasi (TIK). </p>  
+          <p class="fs-3 fw-bold">HANS Skincare</p>       
+          <p>HANS SkinCARE merupakan produk terbaru dari Haspedia, yang merupakan produk skincare premium dambaan bagi semur orang khususnya kaum Hawa, Kami percaya bahwa kulit cantik bisa diraih oleh semua orang. Oleh karenanya kami hadir dennen sluis terbaik kulit antik Anda.</p>
         </div>
-        <div class="col-5 text-center">
-          <img width="420" src="images/image content.png" alt="" />
+        <div class="col-5 text-center image-logo">
+          <img width="380" src="images/logo.png" alt="" />
         </div>
       </div>
     </div>
   </section>
+  <!-- section mitra -->
+  <section id="partner">
+    <div class="container p-lg-5 shadow-sm mb-4">
+      <center>
+        <p class="fs-1 fw-bold">Mitra Hanspedia</p>        
+      </center>
+      <div class="row justify-content-center">
+        <div class="col-4">
+          <div class="card text-center shadow-sm">
+            <div class="card-body">
+              <div class="col-12">
+                <i class="fa-sharp fa-solid fa-building-columns fa-2xl" style="color: #03a4ed;"></i>
+                <p class="fs-5 fw-bold card-text">Best Islamic Product</p>
+                <p>Get to know more about the topic in details</p>
+              </div>
+            </div>
+        </div>
+        </div>
+        <div class="col-4">
+          <div class="card text-center shadow-sm">
+            <div class="card-body">
+              <div class="col-12">
+                <i class="fa-solid fa-graduation-cap fa-2xl" style="color: #03a4ed;"></i>
+                <p class="fs-5 fw-bold card-text">Best Islamic Product</p>
+                <p>Get to know more about the topic in details</p>
+              </div>
+            </div>
+          </div>          
+        </div>
+        <div class="col-4">
+          <div class="card text-center shadow-sm">
+            <div class="card-body">
+              <div class="col-12">
+                <i class="fa-solid fa-users-rectangle fa-2xl" style="color: #03a4ed;"></i>
+                <p class="fs-5 fw-bold card-text">Best Islamic Product</p>
+                <p>Get to know more about the topic in details</p>
+              </div>
+            </div>
+          </div>          
+        </div>
+      </div>
+    </div>       
+  </section>
+  <!-- section career -->
+  <section id="career">
+    <div class="container p-lg-5 shadow-sm mb-4">
+      <div class="row">
+        <div class="col-lg-3">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Data Scientist</h5>
+              <p class="card-text">Kami mencari seorang Data Scientist yang berpengalaman untuk bergabung dengan tim kami.</p>
+              <a href="#" class="btn btn-primary">Lihat Detail</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Product Designer</h5>
+              <p class="card-text">Kami membuka kesempatan bagi seorang Product Designer yang kreatif untuk bergabung dengan tim kami.</p>
+              <a href="#" class="btn btn-primary">Lihat Detail</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Technical Support</h5>
+              <p class="card-text">Kami sedang mencari Technical Support yang handal dan dapat memberikan dukungan teknis kepada pelanggan.</p>
+              <a href="#" class="btn btn-primary">Lihat Detail</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Digital Marketer</h5>
+              <p class="card-text">Kami membutuhkan seorang Digital Marketer yang memiliki keahlian dalam strategi pemasaran digital.</p>
+              <a href="#" class="btn btn-primary">Lihat Detail</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- section blog -->
+  <section id="blog">
+    <div class="container p-lg-5 shadow-sm mb-4">
+      <div class="row">
+        <div class="col-lg-4">
+          <div class="card">
+            <img src="images/image-blog1.png" class="card-img-top" alt="Gambar Blog 1">
+            <div class="card-body">
+              <h5 class="card-title">AWARD NIGHT CEREMONY 2021 - Asosiasi Digital Marketing</h5>
+              <p class="card-text">25 Mei 2023</p>
+              <a href="#" class="btn btn-primary">Baca Selengkapnya</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="card">
+            <img src="images/image-blog1.png" class="card-img-top" alt="Gambar Blog 2">
+            <div class="card-body">
+              <h5 class="card-title">AWARD NIGHT CEREMONY 2021 - Asosiasi Digital Marketing</h5>
+              <p class="card-text">25 Mei 2023</p>
+              <a href="#" class="btn btn-primary">Baca Selengkapnya</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="card">
+            <img src="images/image-blog1.png" class="card-img-top" alt="Gambar Blog 3">
+            <div class="card-body">
+              <h5 class="card-title">AWARD NIGHT CEREMONY 2021 - Asosiasi Digital Marketing</h5>
+              <p class="card-text">25 Mei 2023</p>
+              <a href="#" class="btn btn-primary">Baca Selengkapnya</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+    <!-- sectioan help -->
+    <section id="help">
+      <div class="container p-lg-5 shadow-sm mb-4">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Kontak Kami</h5>
+                <p class="card-text">
+                  <strong>Alamat:</strong> Jalan Contoh No. 123, Kota Contoh, Negara Contoh<br>
+                  <strong>Email:</strong> info@contoh.com
+                </p>
+                <div id="googleMap" style="width:100%;height:380px;"></div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="card">
+              <div class="card-body">                
+                <form>
+                  <div class="mb-3">
+                    <label for="nama" class="form-label">Nama</label>
+                    <input type="text" class="form-control" id="nama">
+                  </div>
+                  <div class="mb-3">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="email">
+                  </div>
+                  <div class="mb-3">
+                    <label for="saran" class="form-label">Saran</label>
+                    <textarea class="form-control" id="saran" rows="5"></textarea>
+                  </div>
+                  <button type="submit" class="btn btn-primary">Kirim</button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- footer -->
+    <footer id="footer">
+      <div class="container p-lg-5 shadow-sm mb-4">
+        <div class="row">
+          <div class="col-md-4">
+            <p class="fs-2 fw-bold">Hanspedia Corp</p>
+            <p>Perum Plaosan Permai D-110, Jl. Teluk Grajakan Plaosan Timur Blimbing Kota Malang Jawa Timur - Indonesia</p>
+          </div>
+          <div class="col-sm-2">
+            <h5>Perusahaan</h5>
+            <ul class="list-unstyled">
+              <li><a class="fs-6 fw-medium" href="#company">Tentang</a></li>
+              <li><a class="fs-6 fw-medium" href="#product">Produk</a></li>
+              <li><a class="fs-6 fw-medium" href="#blog">Blog</a></li>              
+            </ul>
+          </div>
+          <div class="col-sm-2">
+            <h5>Gabung</h5>
+            <ul class="list-unstyled">
+              <li><a class="fs-6 fw-medium" href="#">Mitra Usaha</a></li>
+              <li><a class="fs-6 fw-medium" href="#">Mitra Tentor</a></li>              
+            </ul>
+          </div>
+          <div class="col-sm-2">
+            <h5>Karir</h5>
+            <ul class="list-unstyled">
+              <li><a class="fs-6 fw-medium" href="#">R & D</a></li>
+              <li><a class="fs-6 fw-medium" href="#">Pelatihan</a></li>              
+            </ul>
+          </div>
+          <div class="col-sm-2">
+            <h5>Hubungi Kami</h5>
+            <ul class="list-unstyled">
+              <li><a class="fs-6 fw-medium" href="#">Bantuan</a></li>
+              <li><a class="fs-6 fw-medium" href="#">Lokasi Kami</a></li>
+          </ul>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <div style=" height: 0px; border: 1px white solid"></div>
+            <p class="text-center">© Copyright 2023 | HANSPEDIA CORP</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    
+    
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"

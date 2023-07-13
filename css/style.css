@@ -27,7 +27,31 @@ body {
   text-decoration: underline;
 }
 
-#company, #product {
-  background-color: #03A4ED;
+#beranda {
+  padding-top: 60px;
+}
+
+#company,
+#company-award,
+#partner,
+#blog,
+#footer {
+  background-color: #03a4ed;
   color: #fff;
+}
+
+#company-visi,
+#product,
+#career,
+#help {
+  background-color: #fff;
+  color: #001c30;
+}
+
+.card-text {
+  color: #001c30;
+}
+
+.image-logo {
+  padding-top: 120px;
 }
