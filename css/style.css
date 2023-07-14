@@ -34,6 +34,8 @@ body {
 #company,
 #company-award,
 #partner,
+#partner-2,
+#help-1,
 #blog,footer, footer a {
   background-color: #03a4ed;
   color: #fff;
@@ -41,6 +43,7 @@ body {
 
 #company-visi,
 #product,
+#partner-1,
 #career,
 #help {
   background-color: #fff;
@@ -54,4 +57,15 @@ body {
 .image-logo {
   padding-top: 120px;
 }
-  
+
+.icon-partner{
+  left: 10px;
+  top: -40px;
+  position: absolute;
+}
+
+.icon-partner-1{
+  right: 180px;
+  top: -40px;
+  position: absolute;  
+}
