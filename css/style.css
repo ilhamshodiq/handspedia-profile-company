@@ -37,6 +37,7 @@ body {
 #blog,footer, footer a {
   background-color: #03a4ed;
   color: #fff;
+  text-decoration: none;
 }
 
 #company-visi,
@@ -54,4 +55,3 @@ body {
 .image-logo {
   padding-top: 120px;
 }
-  
