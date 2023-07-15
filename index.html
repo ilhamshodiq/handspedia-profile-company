@@ -9,7 +9,21 @@
     integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <link href="css/style.css" rel="stylesheet" />
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+  <script src="http://maps.googleapis.com/maps/api/js"></script>
+
+  <script>
+    function initialize() {
+      var propertiPeta = {
+        center: new google.maps.LatLng(-7.9786453, 112.631783),
+        zoom: 9,
+        mapTypeId: google.maps.MapTypeId.ROADMAP
+      };
+
+      var peta = new google.maps.Map(document.getElementById("googleMap"), propertiPeta);
+    }
+    google.maps.event.addDomListener(window, 'load', initialize);
+  </script>
 
 </head>
 
@@ -71,7 +85,7 @@
         </div>
       </div>
   </section>
-<!-- Section Company -->
+  <!-- Section Company -->
   <section id="company">
     <div class="container p-lg-5 shadow-sm mb-4">
       <center>
@@ -93,10 +107,10 @@
 
           <p> "Media Digital dianggap sebagai solusi terbaik untuk mengaplikasikan Bisnis Kekinian untuk mendapatkan
             value
-            efektifitas dan efisiensi di era industri 4.0. dengan society 5.0,"</p>          
+            efektifitas dan efisiensi di era industri 4.0. dengan society 5.0,"</p>
         </div>
         <div class="col-5 text-center">
-          <img width="380" src="images/image content.png" alt=""/>
+          <img width="380" src="images/image content.png" alt="" />
         </div>
       </div>
     </div>
@@ -106,18 +120,23 @@
       <center>
         <p class="fs-1 fw-bold title">Masa Depan Inspiratif Dengan
         </p>
-        <p class="fs-1 fw-bold title"> Visi & Misi Yang Kuat</p>        
+        <p class="fs-1 fw-bold title"> Visi & Misi Yang Kuat</p>
       </center>
       <div class="row">
         <div class="col-7">
           <p class="fs-3 fw-bold">Visi</p>
-          <p> Menjadi Perusahaan terkemuka di indonesia dalam industri penyediaan barang dan jasa yang memiliki Kredibilitas dari masa ke masa dengan memberikan Nilai Terbaik kepada para Stakeholders</p>
+          <p> Menjadi Perusahaan terkemuka di indonesia dalam industri penyediaan barang dan jasa yang memiliki
+            Kredibilitas dari masa ke masa dengan memberikan Nilai Terbaik kepada para Stakeholders</p>
           <p class="fs-3 fw-bold">Misi</p>
-          <p>1. Kami menciptakan karya-karya dengan NIlai Terbaik yang kreatif, inovatif dan berkulitas agar bisa bersaing dengan industri penyediaan barang dan jasa nasional </p>
-          <p>2. Kami memberikan NIlai Terbaik untuk memuaskan para pelanggan sebagai pilihan utama mereka dengan memberikan produk dan jasa yang berkualitas, inovatif, dan handal.</p>
-          <p>3. Kami memberikan Nilai Terbaik kepada para partner dengan mengembangkan hubungan saling percaya dan partnership yang terfokus pada pertumbuhan yang berkesinambungan
+          <p>1. Kami menciptakan karya-karya dengan NIlai Terbaik yang kreatif, inovatif dan berkulitas agar bisa
+            bersaing dengan industri penyediaan barang dan jasa nasional </p>
+          <p>2. Kami memberikan NIlai Terbaik untuk memuaskan para pelanggan sebagai pilihan utama mereka dengan
+            memberikan produk dan jasa yang berkualitas, inovatif, dan handal.</p>
+          <p>3. Kami memberikan Nilai Terbaik kepada para partner dengan mengembangkan hubungan saling percaya dan
+            partnership yang terfokus pada pertumbuhan yang berkesinambungan
           </p>
-          <p>4. Kami memahami tanggung jawab sosial kami sebagai perusahaan dan memberikan NIlai Terbaik kepada masyarakat dengan secara ak8f berkontribusi terhadap kesejahteraan mereka</p>
+          <p>4. Kami memahami tanggung jawab sosial kami sebagai perusahaan dan memberikan NIlai Terbaik kepada
+            masyarakat dengan secara ak8f berkontribusi terhadap kesejahteraan mereka</p>
         </div>
         <div class="col-5 text-center">
           <img width="380" src="images/visi.png" alt="" />
@@ -131,7 +150,7 @@
         <p class="fs-1 fw-bold">Hanspedia meraih penghargaan</p>
         <p class="fs-1 fw-bold">yang mengesankan.</p>
       </center>
-    
+
       <div class="row justify-content-center">
         <div class="col-4">
           <a href="https://digimind.id/award-night-ceremony/" target="_blank" class="card text-center shadow-sm">
@@ -157,23 +176,30 @@
           </a>
         </div>
       </div>
-    </div>       
+    </div>
   </section>
   <!-- section product -->
   <section id="product">
     <div class="container p-lg-5 shadow-sm mb-4">
       <center>
         <p class="fs-1 fw-bold title">Product dari Hanspedia
-        </p>        
+        </p>
       </center>
       <div class="row">
         <div class="col-7">
           <p class="fs-3 fw-bold">Lianahans & Dihans</p>
-          <p> Lianahans merupakan salah satu Brand di bidang Fashion di bawah naungan Hanspedia Group. Brand tersebut bergerak sebagai Produsen Busana Muslim, dimana Lianahans fokus pada produksi gamis muslim Perempuan semi formal, sedangkan DiHans fokus pada gamis muslim perempuan sehari-hari (Daily), termasuk pelengkap pakaian seperti Tas, Sandal, dll.</p>
+          <p> Lianahans merupakan salah satu Brand di bidang Fashion di bawah naungan Hanspedia Group. Brand tersebut
+            bergerak sebagai Produsen Busana Muslim, dimana Lianahans fokus pada produksi gamis muslim Perempuan semi
+            formal, sedangkan DiHans fokus pada gamis muslim perempuan sehari-hari (Daily), termasuk pelengkap pakaian
+            seperti Tas, Sandal, dll.</p>
           <p class="fs-3 fw-bold">ITRG : Information Technology Research Group</p>
-          <p>ITrg ini merupakan salah satu Brand dibawah naungan Hanspedia Group, yang bergerak dibidang layanan konsultan Teknologi Informasi & bisnis, seminar/workshop, sertifikası kompetensi, Software, Hardware, internet of things, dan hal lainnya yang terkait dengan teknologi informasi dan komunikasi (TIK). </p>  
-          <p class="fs-3 fw-bold">HANS Skincare</p>       
-          <p>HANS SkinCARE merupakan produk terbaru dari Haspedia, yang merupakan produk skincare premium dambaan bagi semur orang khususnya kaum Hawa, Kami percaya bahwa kulit cantik bisa diraih oleh semua orang. Oleh karenanya kami hadir dennen sluis terbaik kulit antik Anda.</p>
+          <p>ITrg ini merupakan salah satu Brand dibawah naungan Hanspedia Group, yang bergerak dibidang layanan
+            konsultan Teknologi Informasi & bisnis, seminar/workshop, sertifikası kompetensi, Software, Hardware,
+            internet of things, dan hal lainnya yang terkait dengan teknologi informasi dan komunikasi (TIK). </p>
+          <p class="fs-3 fw-bold">HANS Skincare</p>
+          <p>HANS SkinCARE merupakan produk terbaru dari Haspedia, yang merupakan produk skincare premium dambaan bagi
+            semur orang khususnya kaum Hawa, Kami percaya bahwa kulit cantik bisa diraih oleh semua orang. Oleh
+            karenanya kami hadir dennen sluis terbaik kulit antik Anda.</p>
         </div>
         <div class="col-5 text-center image-logo">
           <img width="380" src="images/logo.png" alt="" />
@@ -185,91 +211,267 @@
   <section id="partner">
     <div class="container p-lg-5 shadow-sm mb-4">
       <center>
-        <p class="fs-1 fw-bold">Mitra Hanspedia</p>        
+        <p class="fs-1 fw-bold">Mitra Hanspedia</p>
       </center>
+      <br><br>
       <div class="row justify-content-center">
-        <div class="col-4">
-          <div class="card text-center shadow-sm">
+        <div class="col-3">
+          <div class="card text-center shadow-sm rounded-4">
             <div class="card-body">
-              <div class="col-12">
-                <i class="fa-sharp fa-solid fa-building-columns fa-2xl" style="color: #03a4ed;"></i>
-                <p class="fs-5 fw-bold card-text">Best Islamic Product</p>
-                <p>Get to know more about the topic in details</p>
+              <div class="container icon-partner">
+                <div class="row justify-content-center">
+                  <div class="col-5">
+                    <div class="card text-center shadow-sm rounded-3">
+                      <div class="card-body">
+                        <i class="fa-solid fa-graduation-cap fa-2xl" style="color: #03a4ed;"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
-            </div>
-        </div>
-        </div>
-        <div class="col-4">
-          <div class="card text-center shadow-sm">
-            <div class="card-body">
               <div class="col-12">
-                <i class="fa-solid fa-graduation-cap fa-2xl" style="color: #03a4ed;"></i>
-                <p class="fs-5 fw-bold card-text">Best Islamic Product</p>
-                <p>Get to know more about the topic in details</p>
+                <p class="fs-5 fw-bold card-text text-start">Pemerintahan</p>
+                <p class="text-start">Kami membantu 500.000+ Mitra Usaha melipatgandakan penjualan, meluaskan jangkauan,
+                  dan berkembang dengan teknologi baru.</p>
               </div>
-            </div>
-          </div>          
-        </div>
-        <div class="col-4">
-          <div class="card text-center shadow-sm">
-            <div class="card-body">
-              <div class="col-12">
-                <i class="fa-solid fa-users-rectangle fa-2xl" style="color: #03a4ed;"></i>
-                <p class="fs-5 fw-bold card-text">Best Islamic Product</p>
-                <p>Get to know more about the topic in details</p>
-              </div>
-            </div>
-          </div>          
-        </div>
-      </div>
-    </div>       
-  </section>
-  <!-- section career -->
-  <section id="career">
-    <div class="container p-lg-5 shadow-sm mb-4">
-      <div class="row">
-        <div class="col-lg-3">
-          <div class="card">
-            <div class="card-body">
-              <h5 class="card-title">Data Scientist</h5>
-              <p class="card-text">Kami mencari seorang Data Scientist yang berpengalaman untuk bergabung dengan tim kami.</p>
-              <a href="#" class="btn btn-primary">Lihat Detail</a>
             </div>
           </div>
         </div>
-        <div class="col-lg-3">
-          <div class="card">
+        <div class="col-3">
+          <div class="card text-center shadow-sm rounded-4">
             <div class="card-body">
-              <h5 class="card-title">Product Designer</h5>
-              <p class="card-text">Kami membuka kesempatan bagi seorang Product Designer yang kreatif untuk bergabung dengan tim kami.</p>
-              <a href="#" class="btn btn-primary">Lihat Detail</a>
+              <div class="container icon-partner">
+                <div class="row justify-content-center">
+                  <div class="col-5">
+                    <div class="card text-center shadow-sm rounded-3">
+                      <div class="card-body">
+                        <i class="fa-sharp fa-solid fa-building-columns fa-2xl" style="color: #03a4ed;"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12">
+                <p class="fs-5 fw-bold card-text text-start">Pendidikan</p>
+                <p class="text-start">Kami membantu 500.000+ Mitra Usaha melipatgandakan penjualan, meluaskan jangkauan,
+                  dan berkembang dengan teknologi baru.</p>
+              </div>
             </div>
           </div>
         </div>
-        <div class="col-lg-3">
-          <div class="card">
+        <div class="col-3">
+          <div class="card text-center shadow-sm rounded-4">
             <div class="card-body">
-              <h5 class="card-title">Technical Support</h5>
-              <p class="card-text">Kami sedang mencari Technical Support yang handal dan dapat memberikan dukungan teknis kepada pelanggan.</p>
-              <a href="#" class="btn btn-primary">Lihat Detail</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-3">
-          <div class="card">
-            <div class="card-body">
-              <h5 class="card-title">Digital Marketer</h5>
-              <p class="card-text">Kami membutuhkan seorang Digital Marketer yang memiliki keahlian dalam strategi pemasaran digital.</p>
-              <a href="#" class="btn btn-primary">Lihat Detail</a>
+              <div class="container icon-partner">
+                <div class="row justify-content-center">
+                  <div class="col-5">
+                    <div class="card text-center shadow-sm rounded-3">
+                      <div class="card-body">
+                        <i class="fa-solid fa-users-rectangle fa-2xl" style="color: #03a4ed;"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12">
+                <p class="fs-5 fw-bold card-text text-start">UMKM</p>
+                <p class="text-start">Kami membantu 500.000+ Mitra Usaha melipatgandakan penjualan, meluaskan jangkauan,
+                  dan berkembang dengan teknologi baru.</p>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
   </section>
+  <section id="partner-1">
+    <div class="container p-lg-5 shadow-sm mb-4">
+      <div class="row">
+        <p class="fs-1 fw-bold pb-5">Mitra Hanspedia</p>
+        <div class="row justify-content-center">
+          <div class="col-6">
+            <div class="card text-center shadow-sm rounded-4">
+              <div class="card-body">
+                <div class="container icon-partner-1">
+                  <div class="row justify-content-center">
+                    <div class="col-sm-2">
+                      <div class="card text-center shadow-sm rounded-3">
+                        <div class="card-body">
+                          <i class="fa-solid fa-file-invoice fa-2xl" style="color: #03a4ed;"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-10">
+                  <p class="fs-5 fw-bold card-text text-start">Perseorangan (individual)</p>
+                  <p class="fs-6 fw-bold card-text text-start">Syarat</p>
+                  <p class="lh-sm text-start">1. Bentuk usaha berupa outlet aktif yang menjual makanan/minuman(contoh:
+                    restoran, kafe, kedai, home industry, dll)</p>
+                  <p class="lh-sm text-start">2. Menyertakan email & nomor HP pemilik usaha</p>
+                  <p class="lh-sm text-start">3. Menyertakan alamat lengkap & nomor telepon outlet</p>
+                  <br>
+                  <p class="fs-6 fw-bold card-text text-start">Dokumen</p>
+                  <p class="lh-sm text-start">1. KTP pemilik usaha</p>
+                  <p class="lh-sm text-start">2. Nomor rekening pemilik usaha untuk pencairan dana</p>
+                  <p class="lh-sm text-start">3. NPWP Pemilik Usaha, jika memiliki tarif pajak restoran (PB1)</p>
+                  <p class="lh-sm text-start">4. Dokumen pendukung (buku tabungan, laman eBanking, rekening koran) jika
+                    nama pemilik rekening berbeda dengan nama pemilik usaha</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-6">
+            <div class="card text-center shadow-sm rounded-4">
+              <div class="card-body">
+                <div class="container icon-partner-1">
+                  <div class="row justify-content-center">
+                    <div class="col-sm-2">
+                      <div class="card text-center shadow-sm rounded-3">
+                        <div class="card-body">
+                          <i class="fa-solid fa-file-invoice fa-2xl" style="color: #03a4ed;"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-10">
+                  <p class="fs-5 fw-bold card-text text-start">Perseorangan (individual)</p>
+                  <p class="fs-6 fw-bold card-text text-start">Syarat</p>
+                  <p class="lh-sm text-start">1. Bentuk usaha berupa outlet aktif yang menjual makanan/minuman(contoh:
+                    restoran, kafe, kedai, home industry, dll)</p>
+                  <p class="lh-sm text-start">2. Menyertakan email & nomor HP pemilik usaha</p>
+                  <p class="lh-sm text-start">3. Menyertakan alamat lengkap & nomor telepon outlet</p>
+                  <br>
+                  <p class="fs-6 fw-bold card-text text-start">Dokumen</p>
+                  <p class="lh-sm text-start">1. KTP pemilik usaha</p>
+                  <p class="lh-sm text-start">2. Nomor rekening pemilik usaha untuk pencairan dana</p>
+                  <p class="lh-sm text-start">3. NPWP Pemilik Usaha, jika memiliki tarif pajak restoran (PB1)</p>
+                  <p class="lh-sm text-start">4. Dokumen pendukung (buku tabungan, laman eBanking, rekening koran) jika
+                    nama pemilik rekening berbeda dengan nama pemilik usaha</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="partner-2">
+    <div class="container p-lg-5 shadow-sm mb-4">
+      <p class="fs-3 fw-bold title">Mau gabung jadi Mitranya Hanspedia ?</p>
+      <div class="row">
+        <div class="col-7">
+          <p class="fs-5 fw-normal">Kami akan membantu anda untuk mengembangkan usaha anda dengan menggunakan teknologi
+            digital. </p>
+          <br><br>
+          <div class="d-grid gap-2 d-md-flex justify-content-md-start mt-5">
+            <button class="btn btn-primary me-md-2 rounded-3" type="button">Gabung Sekarang</button>
+          </div>
+        </div>
+        <div class="col-5 text-end">
+          <img width="280" src="images/partner.png" alt="" />
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- section career -->
+  <section id="career">
+    <div class="container p-lg-5 shadow-sm mb-4">
+      <center>
+        <p class="fs-1 fw-bold">Temukan Karirmu Hanspedia</p>
+      </center>
+      <div class="row">
+        <div class="col-lg-3 mt-5">
+          <div class="card rounded-4">
+            <div class="card-body">
+              <h5 class="card-title">Data Scientist</h5>
+              <p class="card-text ">Kami mencari seorang Data Scientist yang berpengalaman untuk bergabung dengan tim
+                kami.</p>
+              <a href="#" class="btn btn-primary rounded-5">Lihat Detail</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 mt-5">
+          <div class="card rounded-4">
+            <div class="card-body">
+              <h5 class="card-title">Product Designer</h5>
+              <p class="card-text">Kami membuka kesempatan bagi seorang Product Designer yang kreatif untuk bergabung
+                dengan tim kami.</p>
+              <a href="#" class="btn btn-primary rounded-5">Lihat Detail</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 mt-5">
+          <div class="card rounded-4">
+            <div class="card-body">
+              <h5 class="card-title">Technical Support</h5>
+              <p class="card-text">Kami sedang mencari Technical Support yang handal dan dapat memberikan dukungan
+                teknis kepada pelanggan.</p>
+              <a href="#" class="btn btn-primary rounded-5">Lihat Detail</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 mt-5">
+          <div class="card rounded-4">
+            <div class="card-body">
+              <h5 class="card-title">Digital Marketer</h5>
+              <p class="card-text">Kami membutuhkan seorang Digital Marketer yang memiliki keahlian dalam strategi
+                pemasaran digital.</p>
+              <a href="#" class="btn btn-primary rounded-5">Lihat Detail</a>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-3 mt-5">
+            <div class="card rounded-4">
+              <div class="card-body">
+                <h5 class="card-title">Data Scientist</h5>
+                <p class="card-text">Kami mencari seorang Data Scientist yang berpengalaman untuk bergabung dengan tim
+                  kami.</p>
+                <a href="#" class="btn btn-primary rounded-5">Lihat Detail</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 mt-5">
+            <div class="card rounded-4">
+              <div class="card-body">
+                <h5 class="card-title">Product Designer</h5>
+                <p class="card-text">Kami membuka kesempatan bagi seorang Product Designer yang kreatif untuk bergabung
+                  dengan tim kami.</p>
+                <a href="#" class="btn btn-primary rounded-5">Lihat Detail</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 mt-5">
+            <div class="card rounded-4">
+              <div class="card-body">
+                <h5 class="card-title">Technical Support</h5>
+                <p class="card-text">Kami sedang mencari Technical Support yang handal dan dapat memberikan dukungan
+                  teknis kepada pelanggan.</p>
+                <a href="#" class="btn btn-primary rounded-5">Lihat Detail</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 mt-5">
+            <div class="card rounded-4">
+              <div class="card-body">
+                <h5 class="card-title">Digital Marketer</h5>
+                <p class="card-text">Kami membutuhkan seorang Digital Marketer yang memiliki keahlian dalam strategi
+                  pemasaran digital.</p>
+                <a href="#" class="btn btn-primary rounded-5">Lihat Detail</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
   <!-- section blog -->
   <section id="blog">
     <div class="container p-lg-5 shadow-sm mb-4">
+      <center>
+        <p class="fs-1 fw-bold">Baca Artikel disini</p>
+      </center>
       <div class="row">
         <div class="col-lg-4">
           <div class="card">
@@ -304,109 +506,160 @@
       </div>
     </div>
   </section>
-    <!-- sectioan help -->
-    <section id="help">
-      <div class="container p-lg-5 shadow-sm mb-4">
-        <div class="row">
-          <div class="col-lg-6">
-            <div class="card">
-              <div class="card-body">
-                <h5 class="card-title">Kontak Kami</h5>
-                <p class="card-text">
-                  <strong>Alamat:</strong> Jalan Contoh No. 123, Kota Contoh, Negara Contoh<br>
-                  <strong>Email:</strong> info@contoh.com
-                </p>
-                <div id="googleMap" style="width:100%;height:380px;"></div>
-              </div>
+  <!-- sectioan help -->
+  <section id="help">
+    <div class="container p-lg-5 shadow-sm mb-4">
+      <center>
+        <p class="fs-1 fw-bold">Hubungi Kami</p>
+      </center>
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Kontak Kami</h5>
+              <p class="card-text">
+                <strong>Alamat:</strong> Jalan Contoh No. 123, Kota Contoh, Negara Contoh<br>
+                <strong>Email:</strong> info@contoh.com
+              </p>
+              <div id="googleMap" style="width:100%;height:380px;"></div>
             </div>
           </div>
-          <div class="col-lg-6">
-            <div class="card">
-              <div class="card-body">                
-                <form>
-                  <div class="mb-3">
-                    <label for="nama" class="form-label">Nama</label>
-                    <input type="text" class="form-control" id="nama">
+        </div>
+        <div class="col-lg-6">
+          <div class="card">
+            <div class="card-body">
+              <form>
+                <div class="mb-3">
+                  <label for="nama" class="form-label">Nama</label>
+                  <input type="text" class="form-control" id="nama">
+                </div>
+                <div class="mb-3">
+                  <label for="email" class="form-label">Email</label>
+                  <input type="email" class="form-control" id="email">
+                </div>
+                <div class="mb-3">
+                  <label for="saran" class="form-label">Saran</label>
+                  <textarea class="form-control" id="saran" rows="5"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Kirim</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- section faq -->
+  <section id="help-1">
+    <div class="container p-lg-5 shadow-sm mb-4">
+      <center>
+        <p class="fs-1 fw-bold">Top FAQ</p>
+      </center>
+      <div class="row justify-content-center">
+        <div class="col-lg-10 mt-5">
+          <div class="card rounded-4">
+            <div class="card-body">
+              <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                      <p class="fs-6 fw-medium card-text ">Bagaimana cara menjadi mitra ?</p>
+                    </button>
+                  </h2>
+                  <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                    </div>
                   </div>
-                  <div class="mb-3">
-                    <label for="email" class="form-label">Email</label>
-                    <input type="email" class="form-control" id="email">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                    <p class="fs-6 fw-medium card-text ">Bagaimana cara menjadi mitra ?</p>
+                  </button>
+                  </h2>
+                  <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                    </div>
                   </div>
-                  <div class="mb-3">
-                    <label for="saran" class="form-label">Saran</label>
-                    <textarea class="form-control" id="saran" rows="5"></textarea>
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                    <p class="fs-6 fw-medium card-text ">Bagaimana cara menjadi mitra ?</p>
+                  </button>
+                  </h2>
+                  <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                    </div>
                   </div>
-                  <button type="submit" class="btn btn-primary">Kirim</button>
-                </form>
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                    <p class="fs-6 fw-medium card-text ">Bagaimana cara menjadi mitra ?</p>
+                  </button>
+                  </h2>
+                  <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </section>
-    <!-- footer -->
-    <footer>
-      <div class="container-fluid pt-lg-5 ps-lg-5 pe-lg-5">
-        <div class="row">
-          <div class="col-3">
-            <p class="fs-2 fw-bold">Hanspedia Corp</p>
-            <p>Perum Plaosan Permai D-110, Jl. Teluk Grajakan Plaosan Timur Blimbing Kota Malang Jawa Timur - Indonesia</p>
-          </div>
-          <div class="col-sm-1">
-            <h5>Perusahaan</h5>
-            <ul class="list-unstyled">
-              <li><a class="fs-6 fw-medium" href="#company">Tentang</a></li>
-              <li><a class="fs-6 fw-medium" href="#product">Produk</a></li>
-              <li><a class="fs-6 fw-medium" href="#blog">Blog</a></li>              
-            </ul>
-          </div>
-          <div class="col-sm-1">
-            <h5>Gabung</h5>
-            <ul class="list-unstyled">
-              <li><a class="fs-6 fw-medium" href="#">Mitra Usaha</a></li>
-              <li><a class="fs-6 fw-medium" href="#">Mitra Tentor</a></li>              
-            </ul>
-          </div>
-          <div class="col-sm-1">
-            <h5>Karir</h5>
-            <ul class="list-unstyled">
-              <li><a class="fs-6 fw-medium" href="#">R & D</a></li>
-              <li><a class="fs-6 fw-medium" href="#">Pelatihan</a></li>              
-            </ul>
-          </div>
-          <div class="col-sm-1">
-            <h5>Hubungi Kami</h5>
-            <ul class="list-unstyled">
-              <li><a class="fs-6 fw-medium" href="#">Bantuan</a></li>
-              <li><a class="fs-6 fw-medium" href="#">Lokasi Kami</a></li>
+
+    </div>
+  </section>
+  <!-- footer -->
+  <footer>
+    <div class="container pt-lg-5 shadow-sm">
+      <div class="row">
+        <div class="col-md-4">
+          <p class="fs-2 fw-bold">Hanspedia Corp</p>
+          <p>Perum Plaosan Permai D-110, Jl. Teluk Grajakan Plaosan Timur Blimbing Kota Malang Jawa Timur - Indonesia
+          </p>
+        </div>
+        <div class="col-sm-2">
+          <h5>Perusahaan</h5>
+          <ul class="list-unstyled">
+            <li><a class="fs-6 fw-medium" href="#company">Tentang</a></li>
+            <li><a class="fs-6 fw-medium" href="#product">Produk</a></li>
+            <li><a class="fs-6 fw-medium" href="#blog">Blog</a></li>
           </ul>
-          </div>
         </div>
-        <div class="row mt-lg-5">
-          <div class="col-md-12">
-            <div style=" height: 0px; border: 1px white solid"></div>
-            <p class="text-center mt-3">© Copyright 2023 | HANSPEDIA CORP</p>
-          </div>
+        <div class="col-sm-2">
+          <h5>Gabung</h5>
+          <ul class="list-unstyled">
+            <li><a class="fs-6 fw-medium" href="#">Mitra Usaha</a></li>
+            <li><a class="fs-6 fw-medium" href="#">Mitra Tentor</a></li>
+          </ul>
+        </div>
+        <div class="col-sm-2">
+          <h5>Karir</h5>
+          <ul class="list-unstyled">
+            <li><a class="fs-6 fw-medium" href="#">R & D</a></li>
+            <li><a class="fs-6 fw-medium" href="#">Pelatihan</a></li>
+          </ul>
+        </div>
+        <div class="col-sm-2">
+          <h5>Hubungi Kami</h5>
+          <ul class="list-unstyled">
+            <li><a class="fs-6 fw-medium" href="#">Bantuan</a></li>
+            <li><a class="fs-6 fw-medium" href="#">Lokasi Kami</a></li>
+          </ul>
         </div>
       </div>
-    </footer>
-    
-    
+      <div class="row mt-lg-5">
+        <div class="col-md-12">
+          <div style=" height: 0px; border: 1px white solid"></div>
+          <p class="text-center">© Copyright 2023 | HANSPEDIA CORP</p>
+        </div>
+      </div>
+    </div>
+  </footer>
 
-    <script src="http://maps.googleapis.com/maps/api/js"></script>
 
-    <script>      
-        function initialize() {
-        var propertiPeta = {
-            center:new google.maps.LatLng(-7.9786453,112.631783),
-            zoom:9,
-            mapTypeId:google.maps.MapTypeId.ROADMAP
-        };
-        
-        var peta = new google.maps.Map(document.getElementById("googleMap"), propertiPeta);
-        }      
-        google.maps.event.addDomListener(window, 'load', initialize);
-    </script>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
